@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
 		4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */; };
 		4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1E2A9CC59600B3A442 /* MainView.swift */; };
 		4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE202A9CC59900B3A442 /* Assets.xcassets */; };
@@ -23,9 +24,11 @@
 		4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE442A9CD39300B3A442 /* QuizView.swift */; };
 		4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE462A9CD3A400B3A442 /* MapView.swift */; };
 		4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE482A9CD3B300B3A442 /* NotificationView.swift */; };
+		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		4D61BE192A9CC59600B3A442 /* EcoRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRecycleApp.swift; sourceTree = "<group>"; };
 		4D61BE1E2A9CC59600B3A442 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -43,6 +46,7 @@
 		4D61BE442A9CD39300B3A442 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		4D61BE462A9CD3A400B3A442 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4D61BE482A9CD3B300B3A442 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE1E2A9CC59600B3A442 /* MainView.swift */,
-				4D61BE462A9CD3A400B3A442 /* MapView.swift */,
-				4D61BE482A9CD3B300B3A442 /* NotificationView.swift */,
-				4D61BE422A9CD37C00B3A442 /* ScheduleView.swift */,
-				4D61BE402A9CD27A00B3A442 /* SettingsView.swift */,
-				4D61BE442A9CD39300B3A442 /* QuizView.swift */,
+				4DDBBB1F2AB358F00041E630 /* Maps */,
+				4DDBBB202AB359030041E630 /* Notifications */,
+				4DDBBB212AB359200041E630 /* Schedules */,
+				4DDBBB1E2AB358CC0041E630 /* Settings */,
+				4DDBBB222AB3592D0041E630 /* Quiz */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,6 +144,7 @@
 		4D61BE3B2A9CCD6500B3A442 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -149,6 +154,47 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4DDBBB1E2AB358CC0041E630 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D61BE402A9CD27A00B3A442 /* SettingsView.swift */,
+				4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4DDBBB1F2AB358F00041E630 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				4D61BE462A9CD3A400B3A442 /* MapView.swift */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		4DDBBB202AB359030041E630 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4D61BE482A9CD3B300B3A442 /* NotificationView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		4DDBBB212AB359200041E630 /* Schedules */ = {
+			isa = PBXGroup;
+			children = (
+				4D61BE422A9CD37C00B3A442 /* ScheduleView.swift */,
+			);
+			path = Schedules;
+			sourceTree = "<group>";
+		};
+		4DDBBB222AB3592D0041E630 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				4D61BE442A9CD39300B3A442 /* QuizView.swift */,
+			);
+			path = Quiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +225,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					4D61BE182A9CC59600B3A442 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -234,7 +280,9 @@
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
+				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
+				4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -277,6 +326,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -291,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -305,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -337,6 +388,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -345,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -358,8 +410,8 @@
 		4D61BE282A9CC59900B3A442 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoRecycle/Preview Content\"";
@@ -370,6 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ecoRecycle;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -392,8 +445,8 @@
 		4D61BE292A9CC59900B3A442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoRecycle/Preview Content\"";
@@ -404,6 +457,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = ecoRecycle;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
