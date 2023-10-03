@@ -8,22 +8,26 @@
 import SwiftUI
 
 struct SettingsLabelView: View {
-    var actionButton: Bool
     let image: String
-    let title: String
+    let labelText: String
+    let actionButtonTitle: String
+    let action: (Bool) -> Void
+    
+    @State private var isButtonTapped: Bool = false
     
     var body: some View {
-        Button {
-            actionButton
-        } label: {
-            HStack {
-                Image(systemName: image)
-                Text(title)
+        HStack {
+            Image(systemName: image)
+            
+            Text(labelText)
+            
+            Button(action: {
+                isButtonTapped.toggle()
+                action(isButtonTapped)
+            }) {
+                Text(actionButtonTitle)
             }
+            
         }
     }
-}
-
-#Preview {
-    SettingsLabelView(actionButton: false, image: "text.book.closed", title: "Regulamin")
 }
