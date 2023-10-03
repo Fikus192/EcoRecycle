@@ -36,30 +36,37 @@ internal struct SettingsView: View {
                     
                     Section {
                         SettingsLabelView(
-                            actionButton: viewModel.showPrivacyPolicy == true,
                             image: "lock.doc",
-                            title: "Polityka Prywatności"
-                        )
+                            labelText: "Polityka Prywatności",
+                            actionButtonTitle: "") { _ in
+                                viewModel.showPrivacyPolicy.toggle()
+                            }
+                            .sheet(isPresented: $viewModel.showPrivacyPolicy) {
+                                PrivacyPolicyView()
+                            }
                         
                         SettingsLabelView(
-                            actionButton: viewModel.showTermsAndConditions == true,
                             image: "text.book.closed",
-                            title: "Zasady i Warunki"
-                        )
+                            labelText: "Zasady i Warunki",
+                            actionButtonTitle: "") { _ in
+                                viewModel.showTermsAndConditions.toggle()
+                            }
                     }
                     
                     Section {
                         SettingsLabelView(
-                            actionButton: viewModel.showRating == true,
                             image: "star",
-                            title: "Oceń EcoRecycle"
-                        )
+                            labelText: "Oceń EcoRecycle",
+                            actionButtonTitle: "") { _ in
+                                viewModel.showRating.toggle()
+                            }
                         
                         SettingsLabelView(
-                            actionButton: viewModel.showMailComposer == true,
                             image: "paperplane",
-                            title: "Kontakt ze Wsparciem"
-                        )
+                            labelText: "Kontakt ze Wsparciem",
+                            actionButtonTitle: "") { _ in
+                                viewModel.showMailComposer.toggle()
+                            }
                     }
                     
                     Section {
