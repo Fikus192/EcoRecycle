@@ -51,6 +51,9 @@ internal struct SettingsView: View {
                             actionButtonTitle: "") { _ in
                                 viewModel.showTermsAndConditions.toggle()
                             }
+                            .sheet(isPresented: $viewModel.showTermsAndConditions) {
+                                TermsAndConditionsView()
+                            }
                     }
                     
                     Section {
