@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
 		4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */; };
+		4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D45154A2AE9B52200E7A092 /* MailComposer */; };
 		4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */; };
 		4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1E2A9CC59600B3A442 /* MainView.swift */; };
 		4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE202A9CC59900B3A442 /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +221,9 @@
 			dependencies = (
 			);
 			name = EcoRecycle;
+			packageProductDependencies = (
+				4D45154A2AE9B52200E7A092 /* MailComposer */,
+			);
 			productName = EcoRecycle;
 			productReference = 4D61BE192A9CC59600B3A442 /* EcoRecycle.app */;
 			productType = "com.apple.product-type.application";
@@ -247,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 4D61BE102A9CC59600B3A442;
+			packageReferences = (
+				4D4515492AE9B52200E7A092 /* XCLocalSwiftPackageReference "Dependencies/MailComposer" */,
+			);
 			productRefGroup = 4D61BE1A2A9CC59600B3A442 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -507,6 +515,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		4D4515492AE9B52200E7A092 /* XCLocalSwiftPackageReference "Dependencies/MailComposer" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Dependencies/MailComposer;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D45154A2AE9B52200E7A092 /* MailComposer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MailComposer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D61BE112A9CC59600B3A442 /* Project object */;
 }
