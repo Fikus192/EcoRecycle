@@ -5,6 +5,7 @@
 //  Created by Mateusz Ratajczak on 14/09/2023.
 //
 
+import MailComposer
 import SwiftUI
 
 internal class SettingsViewModel: ObservableObject {
@@ -14,6 +15,20 @@ internal class SettingsViewModel: ObservableObject {
     @Published var showTermsAndConditions: Bool = false
     @Published var showRating: Bool = false
     @Published var showMailComposer: Bool = false
+    
+    internal var mailData: MailComposer.MailData {
+        .init(
+            subject: "Zgłoszenie Problemu",
+            recipients: ["support@ecorecycle.com"],
+            body: """
+                Model: \(UIDevice.current.modelName)
+                Wersja iOS: \(UIDevice.current.systemVersion)
+                Wersja aplikacji: \(Bundle.main.appVersion)
+                Opisz swoje zgłoszenie poniżej
+                --------------------------------------
+            """
+        )
+    }
     
     @ViewBuilder
     internal func buildLogoView() -> some View {
