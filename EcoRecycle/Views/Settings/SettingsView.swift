@@ -42,6 +42,7 @@ internal struct SettingsView: View {
                 .font(.callout)
             }
         }
+        .ignoresSafeArea()
         .mailComposer(isPresented: $viewModel.showMailComposer, mailData: viewModel.mailData)
     }
 }
@@ -81,6 +82,7 @@ extension SettingsView {
             }
             .sheet(isPresented: $viewModel.showPrivacyPolicy) {
                 PrivacyPolicyView()
+                    .presentationDragIndicator(.visible)
             }
     }
     
@@ -93,6 +95,7 @@ extension SettingsView {
             }
             .sheet(isPresented: $viewModel.showTermsAndConditions) {
                 TermsAndConditionsView()
+                    .presentationDragIndicator(.visible)
             }
     }
     
@@ -102,6 +105,11 @@ extension SettingsView {
             labelText: "Oceń EcoRecycle",
             actionButtonTitle: "") { _ in
                 viewModel.showRating.toggle()
+            }
+            .sheet(isPresented: $viewModel.showRating) {
+                RatingView()
+                    .presentationDetents([.medium])
+                    .presentationDragIndicator(.visible)
             }
     }
     
