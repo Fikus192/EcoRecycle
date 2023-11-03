@@ -9,7 +9,8 @@ import MailComposer
 import SwiftUI
 
 internal class SettingsViewModel: ObservableObject {
-    @Published var toggleDarkMode: Bool = false
+    @AppStorage("isDarkMode") var toggleDarkMode: Bool = false
+
     @Published var toggleNotifications: Bool = false
     @Published var showPrivacyPolicy: Bool = false
     @Published var showTermsAndConditions: Bool = false

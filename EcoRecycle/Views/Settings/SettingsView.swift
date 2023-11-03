@@ -42,8 +42,8 @@ internal struct SettingsView: View {
                 .font(.callout)
             }
         }
-        .ignoresSafeArea()
         .mailComposer(isPresented: $viewModel.showMailComposer, mailData: viewModel.mailData)
+        .preferredColorScheme(viewModel.toggleDarkMode ? .dark : .light)
     }
 }
 
