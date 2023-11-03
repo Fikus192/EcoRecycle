@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @ObservedObject private var viewModel = SettingsViewModel()
+    
     var body: some View {
         TabView {
             ScheduleView()
@@ -36,6 +39,7 @@ struct MainView: View {
                 }
             
         }
+        .environment(\.colorScheme, viewModel.toggleDarkMode ? .dark : .light)
     }
 }
 
