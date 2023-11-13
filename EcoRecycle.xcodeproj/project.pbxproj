@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D079C592AF924B200266417 /* NotificationManager.swift */; };
 		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
 		4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */; };
 		4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D45154A2AE9B52200E7A092 /* MailComposer */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D079C592AF924B200266417 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
 		4D61BE192A9CC59600B3A442 /* EcoRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE482A9CD3B300B3A442 /* NotificationView.swift */,
+				4D079C592AF924B200266417 /* NotificationManager.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
+				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
 				4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */,
