@@ -44,6 +44,11 @@ internal struct SettingsView: View {
         }
         .mailComposer(isPresented: $viewModel.showMailComposer, mailData: viewModel.mailData)
         .preferredColorScheme(viewModel.toggleDarkMode ? .dark : .light)
+        .onAppear {
+            if viewModel.toggleNotifications == true {
+                NotificationManager.instance.requestAuthorization()
+            }
+        }
     }
 }
 
@@ -69,6 +74,11 @@ extension SettingsView {
             HStack {
                 Image(systemName: "bell")
                 Text("Zezwól na Powiadomienia")
+            }
+            .onTapGesture {
+                if viewModel.toggleNotifications {
+                    NotificationManager.instance.scheduleNotification()
+                }
             }
         }
     }
