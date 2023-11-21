@@ -1,0 +1,4 @@
+module MailComposer {
+header "MailComposer-Swift.h"
+export *
+}

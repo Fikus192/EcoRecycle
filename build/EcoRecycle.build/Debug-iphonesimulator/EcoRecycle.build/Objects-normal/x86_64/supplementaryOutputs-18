@@ -1,0 +1,36 @@
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/Dictionary+Extensions.swift":
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.swiftconstvalues"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.o"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.dia"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.d"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.swiftdeps"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/JSONDecoder+Extensions.swift":
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.d"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.o"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.dia"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.swiftconstvalues"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Quiz/QuizView.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.o"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.swiftconstvalues"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.dia"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.d"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.swiftdeps"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Schedules/ScheduleView.swift":
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.d"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.o"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.swiftconstvalues"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.dia"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/SettingsView.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.swiftconstvalues"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.dia"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/TermsAndConditionsView.swift":
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.d"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.swiftdeps"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.swiftconstvalues"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.o"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.dia"

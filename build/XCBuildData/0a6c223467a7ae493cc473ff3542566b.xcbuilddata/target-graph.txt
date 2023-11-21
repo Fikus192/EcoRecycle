@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'EcoRecycle' in project 'EcoRecycle'
+➜ Explicit dependency on target 'MailComposer' in project 'MailComposer'
+Target 'MailComposer' in project 'MailComposer'
+➜ Explicit dependency on target 'MailComposer' in project 'MailComposer'
+Target 'MailComposer' in project 'MailComposer' (no dependencies)

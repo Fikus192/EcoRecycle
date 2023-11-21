@@ -14,7 +14,6 @@
 		4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */; };
 		4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1E2A9CC59600B3A442 /* MainView.swift */; };
 		4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE202A9CC59900B3A442 /* Assets.xcassets */; };
-		4D61BE242A9CC59900B3A442 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE232A9CC59900B3A442 /* Preview Assets.xcassets */; };
 		4D61BE302A9CC82000B3A442 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE2F2A9CC82000B3A442 /* Bundle+Extensions.swift */; };
 		4D61BE322A9CC85900B3A442 /* DeviceModels.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE312A9CC85900B3A442 /* DeviceModels.json */; };
 		4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE332A9CC87500B3A442 /* UIDevice+Extensions.swift */; };
@@ -30,6 +29,9 @@
 		4DA949F22AF1333B00DDC5FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA949F12AF1333A00DDC5FD /* RatingView.swift */; };
 		4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */; };
 		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
+		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
+		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
+		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +42,6 @@
 		4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRecycleApp.swift; sourceTree = "<group>"; };
 		4D61BE1E2A9CC59600B3A442 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4D61BE202A9CC59900B3A442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D61BE232A9CC59900B3A442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D61BE2F2A9CC82000B3A442 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
 		4D61BE312A9CC85900B3A442 /* DeviceModels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeviceModels.json; sourceTree = "<group>"; };
 		4D61BE332A9CC87500B3A442 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
@@ -56,6 +57,9 @@
 		4DA949F12AF1333A00DDC5FD /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
+		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,17 +99,8 @@
 				4D61BE3B2A9CCD6500B3A442 /* ViewModels */,
 				4D61BE2D2A9CC75600B3A442 /* Utilities */,
 				4D61BE202A9CC59900B3A442 /* Assets.xcassets */,
-				4D61BE222A9CC59900B3A442 /* Preview Content */,
 			);
 			path = EcoRecycle;
-			sourceTree = "<group>";
-		};
-		4D61BE222A9CC59900B3A442 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4D61BE232A9CC59900B3A442 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		4D61BE2A2A9CC71B00B3A442 /* App */ = {
@@ -146,6 +141,7 @@
 		4D61BE2E2A9CC7F200B3A442 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */,
 				4D61BE312A9CC85900B3A442 /* DeviceModels.json */,
 			);
 			path = Resources;
@@ -155,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */,
+				4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -162,6 +159,7 @@
 		4D61BE3D2A9CCD9100B3A442 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4DF5DD392B025EEA000D1F01 /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,8 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D61BE242A9CC59900B3A442 /* Preview Assets.xcassets in Resources */,
 				4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */,
+				4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */,
 				4D61BE322A9CC85900B3A442 /* DeviceModels.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +288,7 @@
 			files = (
 				4D61BE302A9CC82000B3A442 /* Bundle+Extensions.swift in Sources */,
 				4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */,
+				4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */,
 				4D61BE382A9CC89500B3A442 /* Array+Extensions.swift in Sources */,
 				4DA949F22AF1333B00DDC5FD /* RatingView.swift in Sources */,
 				4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */,
@@ -302,6 +301,7 @@
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
+				4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
@@ -443,6 +443,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EcoRecycle;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aplikacja potrzebuje twojej lokalizacji w celu pokazania jej na mapie.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -478,6 +479,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = EcoRecycle;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aplikacja potrzebuje twojej lokalizacji w celu pokazania jej na mapie.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
