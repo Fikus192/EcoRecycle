@@ -1,0 +1,30 @@
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/MainView.swift":
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.swiftconstvalues"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.d"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.dia"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/PrivacyPolicyView.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.o"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.dia"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.swiftconstvalues"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/ViewModels/MapsViewModel.swift":
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.swiftdeps"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.swiftconstvalues"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.dia"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.o"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/FileManager+Extensions.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.swiftconstvalues"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.dia"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/UIDevice+Extensions.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.o"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.swiftdeps"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.swiftconstvalues"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.dia"

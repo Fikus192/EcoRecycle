@@ -1,0 +1,30 @@
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/ViewModels/SettingsViewModel.swift":
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.d"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.swiftdeps"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.o"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.swiftconstvalues"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.dia"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/SettingsLabelView.swift":
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.dia"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.swiftconstvalues"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.swiftdeps"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/App/EcoRecycleApp.swift":
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.dia"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.swiftconstvalues"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Notifications/NotificationManager.swift":
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.o"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.dia"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.swiftconstvalues"
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.swiftdeps"
+"/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/DerivedSources/GeneratedAssetSymbols.swift":
+  swift-dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps"
+  diagnostics: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia"
+  object: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  dependencies: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.d"
+  const-values: "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues"

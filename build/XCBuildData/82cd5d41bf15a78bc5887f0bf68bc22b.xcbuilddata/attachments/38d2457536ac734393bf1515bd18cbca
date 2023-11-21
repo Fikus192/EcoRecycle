@@ -1,0 +1,228 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycle-master.dia",
+    "emit-module-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycle-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycle-master-emit-module.dia",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycle-master.swiftdeps"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/App/EcoRecycleApp.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/EcoRecycleApp~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Models/Location.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Location~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/Array+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Array+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/Bundle+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Bundle+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/Dictionary+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/Dictionary+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/FileManager+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/FileManager+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/JSONDecoder+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/JSONDecoder+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Utilities/UIDevice+Extensions.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/UIDevice+Extensions~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/ViewModels/MapsViewModel.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapsViewModel~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/ViewModels/SettingsViewModel.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsViewModel~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/MainView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MainView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Maps/MapView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/MapView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Notifications/NotificationManager.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationManager~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Notifications/NotificationView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/NotificationView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Quiz/QuizView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/QuizView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Schedules/ScheduleView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/ScheduleView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/PrivacyPolicyView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/PrivacyPolicyView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/RatingView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/RatingView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/SettingsLabelView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsLabelView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/SettingsView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/EcoRecycle/Views/Settings/TermsAndConditionsView.swift" : {
+    "const-values" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.swiftconstvalues",
+    "dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.d",
+    "diagnostics" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.dia",
+    "index-unit-output-path" : "/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.o",
+    "llvm-bc" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.bc",
+    "object" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.o",
+    "swift-dependencies" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView.swiftdeps",
+    "swiftmodule" : "/Users/mateuszratajczak/Desktop/Xcode Programs/EcoRecycle/build/EcoRecycle.build/Debug-iphonesimulator/EcoRecycle.build/Objects-normal/x86_64/TermsAndConditionsView~partial.swiftmodule"
+  }
+}
