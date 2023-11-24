@@ -26,8 +26,12 @@
 		4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE442A9CD39300B3A442 /* QuizView.swift */; };
 		4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE462A9CD3A400B3A442 /* MapView.swift */; };
 		4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE482A9CD3B300B3A442 /* NotificationView.swift */; };
+		4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850CE2B0D36F000A2BEA9 /* LocationPreviewView.swift */; };
+		4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */; };
+		4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */; };
 		4DA949F22AF1333B00DDC5FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA949F12AF1333A00DDC5FD /* RatingView.swift */; };
 		4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */; };
+		4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */; };
 		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
@@ -54,8 +58,12 @@
 		4D61BE442A9CD39300B3A442 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		4D61BE462A9CD3A400B3A442 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4D61BE482A9CD3B300B3A442 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4D6850CE2B0D36F000A2BEA9 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMarkerView.swift; sourceTree = "<group>"; };
+		4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
 		4DA949F12AF1333A00DDC5FD /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
@@ -169,8 +177,8 @@
 			children = (
 				4D61BE402A9CD27A00B3A442 /* SettingsView.swift */,
 				4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */,
-				4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */,
 				4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */,
+				4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */,
 				4DA949F12AF1333A00DDC5FD /* RatingView.swift */,
 			);
 			path = Settings;
@@ -180,6 +188,10 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE462A9CD3A400B3A442 /* MapView.swift */,
+				4D6850CE2B0D36F000A2BEA9 /* LocationPreviewView.swift */,
+				4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */,
+				4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */,
+				4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */,
 			);
 			path = Maps;
 			sourceTree = "<group>";
@@ -286,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */,
 				4D61BE302A9CC82000B3A442 /* Bundle+Extensions.swift in Sources */,
 				4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */,
 				4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */,
@@ -295,6 +308,7 @@
 				4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */,
 				4D61BE362A9CC88500B3A442 /* JSONDecoder+Extensions.swift in Sources */,
 				4D61BE412A9CD27A00B3A442 /* SettingsView.swift in Sources */,
+				4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */,
 				4D61BE3A2A9CC8CA00B3A442 /* Dictionary+Extensions.swift in Sources */,
 				4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */,
 				4D61BE432A9CD37C00B3A442 /* ScheduleView.swift in Sources */,
@@ -306,6 +320,8 @@
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
+				4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */,
+				4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */,
 				4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

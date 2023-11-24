@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import CoreLocation
 
-struct Location: Codable, Identifiable {
+struct Location: Codable, Identifiable, Hashable {
     enum CodingKeys: String, CodingKey {
         case id, name, address, zipcode, city
         case opening_hours, opening_hours_weekend
@@ -25,6 +26,10 @@ struct Location: Codable, Identifiable {
     let mail: String
     let latitude: Double
     let longitude: Double
+    
+    var coordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+    }
     
     static let allLocations: [Location] = Bundle.main.decode([Location].self, from: "PSZOK_Locations.json")
     static let sampleLocation: Location = allLocations[0]

@@ -11,33 +11,73 @@ import SwiftUI
 struct MapView: View {
     
     @StateObject private var viewModel = MapsViewModel()
-    @State private var locations: [Location] = Location.allLocations
     
     var body: some View {
-        Map(coordinateRegion: $viewModel.coordinateRegion, showsUserLocation: true, annotationItems: locations) { location in
-            MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
-                ZStack {
-                    Circle()
-                        .fill(.green)
+        NavigationStack {
+            ZStack {
+                Map(coordinateRegion: $viewModel.coordinateRegion, showsUserLocation: true, annotationItems: viewModel.locations) { location in
+                    MapAnnotation(coordinate: location.coordinate) {
+                        LocationMarkerView()
+                            .scaleEffect(viewModel.mapLocation == location ? 1 : 0.7)
+                            .shadow(radius: 10)
+                            .onTapGesture {
+                                viewModel.showNextLocation(location: location)
+                            }
+                    }
+                }
+                .ignoresSafeArea(edges: .top)
+                
+                VStack(spacing: 0) {
+                    Spacer()
+                    
+                    ZStack {
+                        ForEach(viewModel.locations) { location in
+                            if viewModel.mapLocation == location {
+                                NavigationLink(
+                                    destination: LocationInfoView(location: location),
+                                    isActive: $viewModel.isLocationInfoViewPresented,
+                                    label: { EmptyView() }
+                                 )
+                                
+                                LocationPreviewView(location: location)
+                                    .shadow(color: Color.black.opacity(0.3), radius: 20)
+                                    .padding(8)
+                                    .transition(.asymmetric(
+                                        insertion: .move(edge: .trailing),
+                                        removal: .move(edge: .leading)))
+                                    .onTapGesture {
+                                       viewModel.sheetLocation = location
+                                       viewModel.isLocationInfoViewPresented.toggle()
+                                   }
+                            }
+                        }
+                    }
+                }
+            }
+            .toolbar {
+                Button {
+                    viewModel.isLocationSearchViewPresented.toggle()
+                    viewModel.showNextLocation(location: viewModel.mapLocation)
+                } label: {
+                    Image(systemName: "text.magnifyingglass")
+                        .font(.headline)
+                        .padding(8)
+                        .foregroundStyle(.primary)
+                        .background(.thinMaterial)
+                        .cornerRadius(10)
                         .shadow(radius: 4)
-                    
-                    Image(systemName: "trash")
-                        .padding(4)
-                        .foregroundStyle(.white)
-                        .shadow(radius: 1)
-                    
+                }
+            }
+            .navigationDestination(isPresented: $viewModel.isLocationSearchViewPresented) {
+                LocationSearchView { location in
+                    viewModel.mapLocation = location ?? Location.sampleLocation
                 }
             }
         }
         .onAppear {
-            //viewModel.checkIfLocationServicesIsEnabled()
+            viewModel.checkIfLocationServicesIsEnabled()
         }
-        .ignoresSafeArea(edges: .top)
     }
-}
-
-extension MapView {
-    
 }
 
 struct MapView_Previews: PreviewProvider {
