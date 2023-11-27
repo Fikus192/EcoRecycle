@@ -68,6 +68,7 @@ extension LocationPreviewView {
                 Image(systemName: "info.circle")
             }
         }
+        .accentColor(Color("AccentColor"))
         .buttonStyle(.borderedProminent)
         .navigationDestination(isPresented: $viewModel.isLocationInfoViewPresented) {
             LocationInfoView(location: location)
