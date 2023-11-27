@@ -26,13 +26,10 @@ final class MapsViewModel: NSObject, ObservableObject, CLLocationManagerDelegate
     @Published var coordinateRegion: MKCoordinateRegion = MKCoordinateRegion()
     @Published var isLocationInfoViewPresented: Bool = false
     @Published var isLocationSearchViewPresented: Bool = false
+    @Published var isLocationPreviewVisible: Bool = false
     @Published var selectedLocation: Location? = nil
-    @Published var sheetLocation: Location? = nil {
-        didSet {
-            print("Sheet location set: \(String(describing: sheetLocation))")
-            objectWillChange.send()
-        }
-    }
+    @Published var showInfoView: Location? = nil
+    
     // Search text bar in LocationSearchView
     @Published var searchText: String = ""
     var cancellable: AnyCancellable?
@@ -53,9 +50,7 @@ final class MapsViewModel: NSObject, ObservableObject, CLLocationManagerDelegate
             })
     }
     
-    private func fetchPlaces(value: String) {
-        
-    }
+    private func fetchPlaces(value: String) { }
     
     private func updateMapRegion(location: Location) {
         withAnimation(.easeInOut) {
@@ -93,7 +88,6 @@ final class MapsViewModel: NSObject, ObservableObject, CLLocationManagerDelegate
         guard let locationManager = locationManager else { return }
         
         switch locationManager.authorizationStatus {
-            
         case .notDetermined:
             locationManager.requestWhenInUseAuthorization()
         case .restricted:

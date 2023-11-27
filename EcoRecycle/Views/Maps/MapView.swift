@@ -22,6 +22,9 @@ struct MapView: View {
                             .shadow(radius: 10)
                             .onTapGesture {
                                 viewModel.showNextLocation(location: location)
+                                withAnimation(.easeInOut) {
+                                    viewModel.isLocationPreviewVisible = true
+                                }
                             }
                     }
                 }
@@ -32,23 +35,13 @@ struct MapView: View {
                     
                     ZStack {
                         ForEach(viewModel.locations) { location in
-                            if viewModel.mapLocation == location {
-                                NavigationLink(
-                                    destination: LocationInfoView(location: location),
-                                    isActive: $viewModel.isLocationInfoViewPresented,
-                                    label: { EmptyView() }
-                                 )
-                                
+                            if viewModel.mapLocation == location && viewModel.isLocationPreviewVisible {
                                 LocationPreviewView(location: location)
                                     .shadow(color: Color.black.opacity(0.3), radius: 20)
                                     .padding(8)
                                     .transition(.asymmetric(
                                         insertion: .move(edge: .trailing),
                                         removal: .move(edge: .leading)))
-                                    .onTapGesture {
-                                       viewModel.sheetLocation = location
-                                       viewModel.isLocationInfoViewPresented.toggle()
-                                   }
                             }
                         }
                     }

@@ -58,8 +58,7 @@ extension LocationPreviewView {
     
     private var infoButton: some View {
         Button {
-            print("Info button tapped")
-            viewModel.sheetLocation = location
+            viewModel.showInfoView = location
             viewModel.isLocationInfoViewPresented.toggle()
         } label: {
             HStack(spacing: 4) {
@@ -70,6 +69,9 @@ extension LocationPreviewView {
             }
         }
         .buttonStyle(.borderedProminent)
+        .navigationDestination(isPresented: $viewModel.isLocationInfoViewPresented) {
+            LocationInfoView(location: location)
+        }
     }
     
     private var routeButton: some View {
