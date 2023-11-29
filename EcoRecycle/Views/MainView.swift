@@ -40,6 +40,7 @@ struct MainView: View {
             
         }
         .environment(\.colorScheme, viewModel.toggleDarkMode ? .dark : .light)
+        .accentColor(.accent)
     }
 }
 
