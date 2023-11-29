@@ -10,29 +10,35 @@ import FirebaseFirestoreSwift
 import SwiftUI
 
 struct QuizView: View {
-    
-    @StateObject private var viewModel = QuizViewModel()
+    @StateObject private var vm = QuizViewModel()
     
     var body: some View {
-        VStack(spacing: 40) {
-            VStack(spacing: 20) {
-                Text(viewModel.quizInfo?.title ?? "")
-                    .customTitle()
+        NavigationStack {
+            VStack(spacing: 40) {
+                VStack(spacing: 20) {
+                    Text(vm.quizInfo?.title ?? "")
+                        .customTitle()
+                    
+                    Text(vm.quizInfo?.subtitle ?? "")
+                        .foregroundStyle(.primary)
+                }
                 
-                Text(viewModel.quizInfo?.subtitle ?? "")
-                    .foregroundStyle(.primary)
+                CustomButton(title: "Rozpocznij Quiz") {
+                    vm.isQuestionViewPresented.toggle()
+                }
             }
-            
-            viewModel.primaryButton(text: "Rozpocznij Quiz")
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .ignoresSafeArea()
-        .background(.thinMaterial)
-        .task {
-            do {
-                try await viewModel.fetchData()
-            } catch {
-                print(error.localizedDescription)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .background(.thinMaterial)
+            .navigationDestination(isPresented: $vm.isQuestionViewPresented) {
+                QuestionView()
+            }
+            .task {
+                do {
+                    try await vm.fetchData()
+                } catch {
+                    print(error.localizedDescription)
+                }
             }
         }
     }
