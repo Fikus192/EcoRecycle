@@ -71,6 +71,7 @@
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
 		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
+		4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +112,7 @@
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
+		4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 			children = (
 				4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */,
 				4DB45DB52B1542090022C8AA /* CustomButton.swift */,
+				4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				4D61BE3A2A9CC8CA00B3A442 /* Dictionary+Extensions.swift in Sources */,
 				4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */,
 				4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */,
+				4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */,
 				4D61BE432A9CD37C00B3A442 /* ScheduleView.swift in Sources */,
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
