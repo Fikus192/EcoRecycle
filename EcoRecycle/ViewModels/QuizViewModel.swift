@@ -6,7 +6,6 @@
 //
 
 import Firebase
-import FirebaseFirestore
 import FirebaseFirestoreSwift
 import SwiftUI
 
@@ -31,9 +30,11 @@ final class QuizViewModel: ObservableObject {
                 try $0.data(as: Question.self)
             }
         
+        let shuffledQuestions = questions.shuffled().prefix(10)
+        
         await MainActor.run(body: {
             self.quizInfo = info
-            self.questions = questions
+            self.questions = Array(shuffledQuestions)
         })
     }
     
