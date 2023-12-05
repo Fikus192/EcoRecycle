@@ -30,8 +30,26 @@ struct QuizView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .ignoresSafeArea()
             .background(.thinMaterial)
+            .toolbar {
+                Button {
+                    vm.showDictionaryView.toggle()
+                } label: {
+                    Image(systemName: "text.magnifyingglass")
+                        .font(.headline)
+                        .padding(8)
+                        .foregroundStyle(.primary)
+                        .background(.thinMaterial)
+                        .cornerRadius(10)
+                        .shadow(radius: 4)
+                }
+            }
             .navigationDestination(isPresented: $vm.isQuestionViewPresented) {
                 QuestionView()
+            }
+            .navigationDestination(isPresented: $vm.showDictionaryView) {
+                DictionaryView()
+                    .navigationTitle("Słownik odpadowy")
+                    .navigationBarTitleDisplayMode(.inline)
             }
             .task {
                 do {
