@@ -5,6 +5,7 @@
 //  Created by Mateusz Ratajczak on 27/11/2023.
 //
 
+import Combine
 import Firebase
 import FirebaseFirestoreSwift
 import SwiftUI
@@ -14,11 +15,29 @@ final class QuizViewModel: ObservableObject {
     
     @Published var quizInfo: Info?
     @Published private(set) var questions: [Question] = []
+    @Published private(set) var trashes: [Trash] = []
+    
     @Published var isQuestionViewPresented: Bool = false
     @Published var currentQuestion: Int = 0
     @Published var score: CGFloat = 0
     @Published var progress: CGFloat = 0
     @Published var showScoreView: Bool = false
+    @Published var showDictionaryView: Bool = false
+    
+    // Search text bar in DictionaryView
+    @Published var searchText: String = ""
+    var cancellable: AnyCancellable?
+    
+    init() {
+        cancellable = $searchText
+            .debounce(for: .seconds(0.5), scheduler: DispatchQueue.main)
+            .removeDuplicates()
+            .sink(receiveValue: { value in
+                self.fetchTrash(value: value)
+            })
+    }
+    
+    private func fetchTrash(value: String) { }
     
     internal func fetchData() async throws {
         try await loginUserAnonymous()
@@ -30,11 +49,21 @@ final class QuizViewModel: ObservableObject {
                 try $0.data(as: Question.self)
             }
         
+        let trashes = try await Firestore.firestore().collection("Quiz").document("Dictionary").collection("Trash")
+            .getDocuments()
+            .documents
+            .compactMap {
+                try $0.data(as: Trash.self)
+            }
+        
         let shuffledQuestions = questions.shuffled().prefix(10)
+        
+        self.trashes.sort { $0.category < $1.category }
         
         await MainActor.run(body: {
             self.quizInfo = info
             self.questions = Array(shuffledQuestions)
+            self.trashes = trashes
         })
     }
     

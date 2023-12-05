@@ -68,6 +68,8 @@
 		4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */; };
 		4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */; };
 		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
+		4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F752B1A8BA600C50BAC /* Trash.swift */; };
+		4DEE2F7A2B1A8C3800C50BAC /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */; };
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
 		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
@@ -109,6 +111,8 @@
 		4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		4DEE2F752B1A8BA600C50BAC /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
+		4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
@@ -246,6 +250,7 @@
 				4DF5DD392B025EEA000D1F01 /* Location.swift */,
 				4DAAB2D02B14F452009D4402 /* Info.swift */,
 				4DAAB2D22B14F4AD009D4402 /* Question.swift */,
+				4DEE2F752B1A8BA600C50BAC /* Trash.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				4D61BE442A9CD39300B3A442 /* QuizView.swift */,
 				4DB45DB22B1521400022C8AA /* QuestionView.swift */,
 				4DB45DB72B17887B0022C8AA /* ScoreView.swift */,
+				4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -432,6 +438,7 @@
 				4D61BE362A9CC88500B3A442 /* JSONDecoder+Extensions.swift in Sources */,
 				4D61BE412A9CD27A00B3A442 /* SettingsView.swift in Sources */,
 				4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */,
+				4DEE2F7A2B1A8C3800C50BAC /* DictionaryView.swift in Sources */,
 				4D61BE3A2A9CC8CA00B3A442 /* Dictionary+Extensions.swift in Sources */,
 				4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */,
 				4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */,
@@ -440,6 +447,7 @@
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
+				4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */,
 				4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
