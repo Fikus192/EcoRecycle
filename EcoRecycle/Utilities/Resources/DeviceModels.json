@@ -108,6 +108,22 @@
       "model":"iPhone 14 Pro Max"
    },
    {
+      "identifier":"iPhone15,4",
+      "model":"iPhone 15"
+   },
+   {
+      "identifier":"iPhone15,5",
+      "model":"iPhone 15 Plus"
+   },
+   {
+      "identifier":"iPhone16,1",
+      "model":"iPhone 15 Pro"
+   },
+   {
+      "identifier":"iPhone16,2",
+      "model":"iPhone 15 Pro Max"
+   },
+   {
       "identifier":"iPad6,3",
       "model":"iPad Pro (9.7 inch, WiFi)"
    },
