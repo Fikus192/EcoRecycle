@@ -1,0 +1,81 @@
+[
+    {
+        "id": 0,
+        "city": "Tychy",
+        "street": "ul. Zofii Nałkowskiej",
+        "pickup": {
+            "tworzywaSztuczne": ["4 Styczeń 2024", "1 Luty 2024", "7 Marzec 2024", "4 Kwiecień 2024"],
+            "szklo": ["4 Styczeń 2024", "1 Luty 2024", "7 Marzec 2024", "4 Kwiecień 2024"],
+            "papier": ["4 Styczeń 2024", "1 Luty 2024", "7 Marzec 2024", "4 Kwiecień 2024"],
+            "biodegradowalne": ["2 Styczeń 2024", "15 Styczeń 2024", "29 Styczeń 2024", "12 Luty 2024", "26 Luty 2024", "11 Marzec 2024", "25 Marzec 2024", "8 Kwiecień 2024", "22 Kwiecień 2024"],
+            "zmieszane": ["2 Styczeń 2024", "15 Styczeń 2024", "29 Styczeń 2024", "12 Luty 2024", "26 Luty 2024", "11 Marzec 2024", "25 Marzec 2024", "8 Kwiecień 2024", "22 Kwiecień 2024"],
+            "popiol": ["24 Styczeń 2024", "21 Luty 2024", "20 Marzec 2024", "24 Kwiecień 2024"]
+        }
+    },
+    {
+        "id": 1,
+        "city": "Tychy",
+        "street": "ul. Agrestowa",
+        "pickup": {
+            "tworzywaSztuczne": ["8 Styczeń 2024", "5 Luty 2024", "4 Marzec 2024", "2 Kwiecień 2024"],
+            "szklo": ["8 Styczeń 2024", "5 Luty 2024", "4 Marzec 2024", "2 Kwiecień 2024"],
+            "papier": ["8 Styczeń 2024", "5 Luty 2024", "4 Marzec 2024", "2 Kwiecień 2024"],
+            "biodegradowalne": ["11 Styczeń 2024", "25 Styczeń 2024", "8 Luty 2024", "22 Luty 2024", "7 Marzec 2024", "21 Marzec 2024", "4 Kwiecień 2024", "18 Kwiecień 2024"],
+            "zmieszane": ["9 Styczeń 2024", "23 Styczeń 2024", "6 Luty 2024", "20 Luty 2024", "5 Marzec 2024", "19 Marzec 2024", "2 Kwiecień 2024", "16 Kwiecień 2024", "30 Kwiecień 2024"],
+            "popiol": ["16 Styczeń 2024", "13 Luty 2024", "12 Marzec 2024", "17 Kwiecień 2024"]
+        }
+    },
+    {
+        "id": 2,
+        "city": "Tychy",
+        "street": "ul. Akacjowa",
+        "pickup": {
+            "tworzywaSztuczne": ["12 Styczeń 2024", "9 Luty 2024", "8 Marzec 2024", "12 Kwiecień 2024"],
+            "szklo": ["12 Styczeń 2024", "9 Luty 2024", "8 Marzec 2024", "12 Kwiecień 2024"],
+            "papier": ["12 Styczeń 2024", "9 Luty 2024", "8 Marzec 2024", "12 Kwiecień 2024"],
+            "biodegradowalne": ["9 Styczeń 2024", "23 Styczeń 2024", "6 Luty 2024", "20 Luty 2024", "5 Marzec 2024", "19 Marzec 2024", "2 Kwiecień 2024", "16 Kwiecień 2024", "30 Kwiecień 2024"],
+            "zmieszane": ["8 Styczeń 2024", "22 Styczeń 2024", "5 Luty 2024", "19 Luty 2024", "4 Marzec 2024", "18 Marzec 2024", "29 Marzec 2024", "15 Kwiecień 2024", "29 Kwiecień 2024"],
+            "popiol": ["15 Styczeń 2024", "12 Luty 2024", "11 Marzec 2024", "15 Kwiecień 2024"]
+        }
+    },
+    {
+        "id": 3,
+        "city": "Sosnowiec",
+        "street": "ul. Daleka",
+        "pickup": {
+            "tworzywaSztuczne": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "szklo": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "papier": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "biodegradowalne": ["5 Styczeń 2024", "19 Styczeń 2024", "2 Luty 2024", "16 Luty 2024", "2 Marzec 2024", "16 Marzec 2024", "30 Marzec 2024", "14 Kwiecień 2024", "27 Kwiecień 2024"],
+            "zmieszane": ["12 Styczeń 2024", "26 Styczeń 2024", "9 Luty 2024", "23 Luty 2024", "9 Marzec 2024", "23 Marzec 2024", "6 Kwiecień 2024", "20 Kwiecień 2024"],
+            "popiol": ["9 Styczeń 2024", "23 Styczeń 2024", "6 Luty 2024", "20 Luty 2024", "6 Marzec 2024", "20 Marzec 2024", "3 Kwiecień 2024", "17 Kwiecień 2024"]
+        }
+    },
+    {
+        "id": 4,
+        "city": "Sosnowiec",
+        "street": "ul. Dobra",
+        "pickup": {
+            "tworzywaSztuczne": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "4 Luty 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "1 Kwiecień 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "szklo": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "papier": ["3 Styczeń 2024", "17 Styczeń 2024", "31 Styczeń 2024", "14 Luty 2024", "28 Luty 2024", "14 Marzec 2024", "28 Marzec 2024", "12 Kwiecień 2024", "25 Kwiecień 2024"],
+            "biodegradowalne": ["2 Styczeń 2024", "16 Styczeń 2024", "30 Styczeń 2024", "13 Luty 2024", "27 Luty 2024", "13 Marzec 2024", "27 Marzec 2024", "11 Kwiecień 2024", "24 Kwiecień 2024"],
+            "zmieszane": ["2 Styczeń 2024", "16 Styczeń 2024", "30 Styczeń 2024", "13 Luty 2024", "27 Luty 2024", "13 Marzec 2024", "27 Marzec 2024", "11 Kwiecień 2024", "24 Kwiecień 2024"],
+            "popiol": ["10 Styczeń 2024", "24 Styczeń 2024", "7 Luty 2024", "21 Luty 2024", "7 Marzec 2024", "21 Marzec 2024", "4 Kwiecień 2024", "18 Kwiecień 2024"]
+        }
+    },
+    {
+        "id": 5,
+        "city": "Sosnowiec",
+        "street": "ul. Dojazd",
+        "pickup": {
+            "tworzywaSztuczne": ["3 Kwiecień 2024", "6 Kwiecień 2024", "11 Kwiecień 2024", "14 Kwiecień 2024", "17 Kwiecień 2024", "20 Kwiecień 2024", "24 Kwiecień 2024", "27 Kwiecień 2024", "29 Kwiecień 2024"],
+            "szklo": ["4 Kwiecień 2024", "12 Kwiecień 2024", "18 Kwiecień 2024", "25 Kwiecień 2024"],
+            "papier": ["4 Kwiecień 2024", "7 Kwiecień 2024", "12 Kwiecień 2024", "15 Kwiecień 2024", "18 Kwiecień 2024", "21 Kwiecień 2024", "25 Kwiecień 2024", "28 Kwiecień 2024"],
+            "biodegradowalne": ["6 Kwiecień 2024", "14 Kwiecień 2024", "20 Kwiecień 2024", "27 Kwiecień 2024"],
+            "zmieszane": ["3 Kwiecień 2024", "5 Kwiecień 2024", "7 Kwiecień 2024", "11 Kwiecień 2024", "13 Kwiecień 2024", "15 Kwiecień 2024", "17 Kwiecień 2024", "19 Kwiecień 2024", "21 Kwiecień 2024", "24 Kwiecień 2024", "26 Kwiecień 2024", "28 Kwiecień 2024", "29 Kwiecień 2024"],
+            "popiol": []
+        }
+    }
+    
+]

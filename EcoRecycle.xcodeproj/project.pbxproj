@@ -11,6 +11,7 @@
 		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
 		4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */; };
 		4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D45154A2AE9B52200E7A092 /* MailComposer */; };
+		4D607A6F2B34E35F00FA1183 /* ScheduleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */; };
 		4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */; };
 		4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE1E2A9CC59600B3A442 /* MainView.swift */; };
 		4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D61BE202A9CC59900B3A442 /* Assets.xcassets */; };
@@ -68,11 +69,14 @@
 		4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */; };
 		4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */; };
 		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
+		4DE935282B2B43770062277E /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE935272B2B43770062277E /* Schedule.swift */; };
+		4DE9352A2B2B43850062277E /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE935292B2B43850062277E /* ScheduleViewModel.swift */; };
 		4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F752B1A8BA600C50BAC /* Trash.swift */; };
 		4DEE2F7A2B1A8C3800C50BAC /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */; };
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
 		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
+		4DF811CE2B3072B900D41448 /* ScheduleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF811CD2B3072B900D41448 /* ScheduleData.json */; };
 		4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +84,7 @@
 		4D079C592AF924B200266417 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
 		4D61BE192A9CC59600B3A442 /* EcoRecycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoRecycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoRecycleApp.swift; sourceTree = "<group>"; };
 		4D61BE1E2A9CC59600B3A442 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -111,11 +116,14 @@
 		4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		4DE935272B2B43770062277E /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		4DE935292B2B43850062277E /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		4DEE2F752B1A8BA600C50BAC /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
 		4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
+		4DF811CD2B3072B900D41448 /* ScheduleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScheduleData.json; sourceTree = "<group>"; };
 		4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,6 +238,7 @@
 			children = (
 				4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */,
 				4D61BE312A9CC85900B3A442 /* DeviceModels.json */,
+				4DF811CD2B3072B900D41448 /* ScheduleData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -240,6 +249,7 @@
 				4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */,
 				4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */,
 				4D85BA882B1420D00092E2D5 /* QuizViewModel.swift */,
+				4DE935292B2B43850062277E /* ScheduleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -251,6 +261,7 @@
 				4DAAB2D02B14F452009D4402 /* Info.swift */,
 				4DAAB2D22B14F4AD009D4402 /* Question.swift */,
 				4DEE2F752B1A8BA600C50BAC /* Trash.swift */,
+				4DE935272B2B43770062277E /* Schedule.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -301,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE422A9CD37C00B3A442 /* ScheduleView.swift */,
+				4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -412,6 +424,7 @@
 				4DAAB2982B14EA7C009D4402 /* GoogleService-Info.plist in Resources */,
 				4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */,
 				4D61BE322A9CC85900B3A442 /* DeviceModels.json in Resources */,
+				4DF811CE2B3072B900D41448 /* ScheduleData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,12 +459,15 @@
 				4D61BE432A9CD37C00B3A442 /* ScheduleView.swift in Sources */,
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
+				4DE9352A2B2B43850062277E /* ScheduleViewModel.swift in Sources */,
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
 				4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */,
+				4D607A6F2B34E35F00FA1183 /* ScheduleRow.swift in Sources */,
 				4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
+				4DE935282B2B43770062277E /* Schedule.swift in Sources */,
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
 				4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */,
 				4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */,

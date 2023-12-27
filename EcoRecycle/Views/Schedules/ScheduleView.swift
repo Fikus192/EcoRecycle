@@ -8,8 +8,39 @@
 import SwiftUI
 
 struct ScheduleView: View {
+    
+    @StateObject private var vm = ScheduleViewModel()
+    
     var body: some View {
-        Text("Harmonogram odbioru odpadów")
+        NavigationStack {
+            VStack {
+                List {
+                    ForEach(vm.schedules) { schedule in
+                        VStack {
+                            ScrollView(.horizontal) {
+                                HStack(spacing: 10) {
+                                    Text(schedule.city)
+                                        .font(.headline)
+                                    Text(schedule.street)
+                                }
+                                
+                                VStack(alignment: .leading) {
+                                    Text("Tworzywa Sztuczne: \(schedule.pickup.tworzywaSztuczne.joined(separator: ", "))")
+                                    Text("Papier: \(schedule.pickup.papier.joined(separator: ", "))")
+                                    Text("Szkło: \(schedule.pickup.szklo.joined(separator: ", "))")
+                                    Text("Biodegradowalne: \(schedule.pickup.biodegradowalne.joined(separator: ", "))")
+                                    Text("Zmieszane: \(schedule.pickup.zmieszane.joined(separator: ", "))")
+                                    Text("Popiół: \(schedule.pickup.popiol.joined(separator: ", "))")
+                                }
+                            }
+                        }
+                    }
+                }
+                .listStyle(.plain)
+            }
+            .navigationTitle("Eco")
+        }
+        .frame(maxWidth: .infinity)
     }
 }
 
