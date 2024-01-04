@@ -76,6 +76,7 @@
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
 		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
+		4DF765C92B3CACDD00C16FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF765C82B3CACDD00C16FE6 /* LaunchScreen.storyboard */; };
 		4DF811CE2B3072B900D41448 /* ScheduleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF811CD2B3072B900D41448 /* ScheduleData.json */; };
 		4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
@@ -123,6 +124,7 @@
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
+		4DF765C82B3CACDD00C16FE6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF811CD2B3072B900D41448 /* ScheduleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScheduleData.json; sourceTree = "<group>"; };
 		4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE1E2A9CC59600B3A442 /* MainView.swift */,
+				4DF765C82B3CACDD00C16FE6 /* LaunchScreen.storyboard */,
 				4DDBBB1F2AB358F00041E630 /* Maps */,
 				4DDBBB202AB359030041E630 /* Notifications */,
 				4DDBBB212AB359200041E630 /* Schedules */,
@@ -423,6 +426,7 @@
 				4D61BE212A9CC59900B3A442 /* Assets.xcassets in Resources */,
 				4DAAB2982B14EA7C009D4402 /* GoogleService-Info.plist in Resources */,
 				4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */,
+				4DF765C92B3CACDD00C16FE6 /* LaunchScreen.storyboard in Resources */,
 				4D61BE322A9CC85900B3A442 /* DeviceModels.json in Resources */,
 				4DF811CE2B3072B900D41448 /* ScheduleData.json in Resources */,
 			);
@@ -601,7 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoRecycle/Preview Content\"";
@@ -613,8 +617,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aplikacja potrzebuje twojej lokalizacji w celu pokazania jej na mapie.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = ecoRecycle;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -638,7 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoRecycle/Preview Content\"";
@@ -650,8 +653,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aplikacja potrzebuje twojej lokalizacji w celu pokazania jej na mapie.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = ecoRecycle;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
