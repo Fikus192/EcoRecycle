@@ -8,9 +8,8 @@
 import SwiftUI
 
 struct ScheduleRow: View {
-    
-    let schedule: Schedule
     let color: Color
+    let dates: [String]
     
     var body: some View {
         HStack {
@@ -20,8 +19,12 @@ struct ScheduleRow: View {
                     .foregroundStyle(color)
             }
             
-            Text(schedule.city)
-            Text(schedule.street)
+            VStack {
+                ForEach(dates, id: \.self) { date in
+                    Text(date)
+                }
+            }
+            
         }
         .clipped()
         .padding(.vertical, 20)
@@ -34,5 +37,6 @@ struct ScheduleRow: View {
 }
 
 #Preview {
-    ScheduleRow(schedule: Schedule.sampleSchedule, color: .yellow)
+    ScheduleRow(color: .yellow, dates: ["12 Stycznia"])
+        .previewLayout(.sizeThatFits)
 }

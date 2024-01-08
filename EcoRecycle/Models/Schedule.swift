@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Schedule: Codable, Identifiable {
-    enum WasteType {
+    enum WasteType: String, CaseIterable {
         case tworzywaSztuczne
         case szklo
         case papier
@@ -40,6 +40,44 @@ struct Schedule: Codable, Identifiable {
             case .popiol:
                 return .gray
             }
+        }
+        
+        func dates(for wasteType: WasteType) -> [String] {
+            switch wasteType {
+            case .tworzywaSztuczne:
+                return tworzywaSztuczne
+            case .szklo:
+                return szklo
+            case .papier:
+                return papier
+            case .biodegradowalne:
+                return biodegradowalne
+            case .zmieszane:
+                return zmieszane
+            case .popiol:
+                return popiol
+            }
+        }
+        
+        func convertIntoPolish(for wasteType: WasteType) -> String {
+            switch wasteType {
+            case .tworzywaSztuczne:
+                return "Metale i tworzywa sztuczne"
+            case .szklo:
+                return "Szkło"
+            case .papier:
+                return "Papier"
+            case .biodegradowalne:
+                return "Biodegradowalne"
+            case .zmieszane:
+                return "Zmieszane"
+            case .popiol:
+                return "Popiół"
+            }
+        }
+        
+        var allWasteTypes: [WasteType] {
+            return WasteType.allCases
         }
         
     }
