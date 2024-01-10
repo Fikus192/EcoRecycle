@@ -72,6 +72,7 @@
 		4DB45DB32B1521400022C8AA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB22B1521400022C8AA /* QuestionView.swift */; };
 		4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB52B1542090022C8AA /* CustomButton.swift */; };
 		4DB45DB82B17887B0022C8AA /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB72B17887B0022C8AA /* ScoreView.swift */; };
+		4DCA29762B4F0414006D537A /* CustomBackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA29752B4F0414006D537A /* CustomBackButtonView.swift */; };
 		4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */; };
 		4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */; };
 		4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */; };
@@ -128,6 +129,7 @@
 		4DB45DB22B1521400022C8AA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		4DB45DB52B1542090022C8AA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		4DB45DB72B17887B0022C8AA /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		4DCA29752B4F0414006D537A /* CustomBackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButtonView.swift; sourceTree = "<group>"; };
 		4DCCDFEB2AC730C7009EE803 /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
 		4DCDDFB02B0FCA6400255FDD /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		4DDBBB242AB35EB50041E630 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */,
 				4D6605172B46BEC400C5E9AC /* CircleButtonView.swift */,
 				4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */,
+				4DCA29752B4F0414006D537A /* CustomBackButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
 				4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */,
 				4D607A6F2B34E35F00FA1183 /* ScheduleRow.swift in Sources */,
+				4DCA29762B4F0414006D537A /* CustomBackButtonView.swift in Sources */,
 				4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
