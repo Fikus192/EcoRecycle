@@ -1,0 +1,6 @@
+framework module Pods_EcoRecycle {
+  umbrella header "Pods-EcoRecycle-umbrella.h"
+
+  export *
+  module * { export * }
+}

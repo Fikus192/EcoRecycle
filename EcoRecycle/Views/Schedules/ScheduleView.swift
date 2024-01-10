@@ -5,6 +5,7 @@
 //  Created by Mateusz Ratajczak on 28/08/2023.
 //
 
+import SwiftDate
 import SwiftUI
 
 struct ScheduleView: View {
@@ -13,34 +14,48 @@ struct ScheduleView: View {
     
     var body: some View {
         NavigationStack {
-            VStack {
-                List {
-                    ForEach(vm.schedules) { schedule in
-                        VStack {
-                            ScrollView(.horizontal) {
-                                HStack(spacing: 10) {
-                                    Text(schedule.city)
-                                        .font(.headline)
-                                    Text(schedule.street)
-                                }
-                                
-                                VStack(alignment: .leading) {
-                                    Text("Tworzywa Sztuczne: \(schedule.pickup.tworzywaSztuczne.joined(separator: ", "))")
-                                    Text("Papier: \(schedule.pickup.papier.joined(separator: ", "))")
-                                    Text("Szkło: \(schedule.pickup.szklo.joined(separator: ", "))")
-                                    Text("Biodegradowalne: \(schedule.pickup.biodegradowalne.joined(separator: ", "))")
-                                    Text("Zmieszane: \(schedule.pickup.zmieszane.joined(separator: ", "))")
-                                    Text("Popiół: \(schedule.pickup.popiol.joined(separator: ", "))")
-                                }
-                            }
+            ZStack {
+                // Background layer
+                Color.theme.background
+                
+                // Content Layer
+                VStack {
+                    HStack {
+                        Button {
+                            vm.showInfo.toggle()
+                        } label: {
+                            CircleButtonView(iconName: "info")
                         }
+                        Spacer()
+                        Text("Harmonogram Odbioru")
+                            .font(.headline)
+                            .fontWeight(.heavy)
+                            .foregroundStyle(Color.theme.accent)
+                        Spacer()
+                        CircleButtonView(iconName: "bell.fill")
                     }
+                    Spacer(minLength: 0)
+                    
+                    List(vm.schedules) { schedule in
+                        Button {
+                            vm.showAddLocation.toggle()
+                        } label: {
+                            RectangleButtonView(city: schedule.city, street: schedule.street)
+                        }
+                        .listRowSeparator(.hidden)
+                        
+                        vm.scheduleDetailsView(for: schedule)
+                    }
+                    .listStyle(.plain)
                 }
-                .listStyle(.plain)
             }
-            .navigationTitle("Eco")
+            .navigationDestination(isPresented: $vm.showInfo) {
+                ScheduleInfoView()
+            }
+            .navigationDestination(isPresented: $vm.showAddLocation) {
+                ScheduleLocationView()
+            }
         }
-        .frame(maxWidth: .infinity)
     }
 }
 

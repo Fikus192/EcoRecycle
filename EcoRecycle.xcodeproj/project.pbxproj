@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D079C592AF924B200266417 /* NotificationManager.swift */; };
+		4D18E1A82B4C4FE200FB9F65 /* RectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */; };
+		4D18E1AA2B4C5A0B00FB9F65 /* ScheduleLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */; };
 		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
 		4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */; };
 		4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */ = {isa = PBXBuildFile; productRef = 4D45154A2AE9B52200E7A092 /* MailComposer */; };
@@ -27,6 +29,10 @@
 		4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE442A9CD39300B3A442 /* QuizView.swift */; };
 		4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE462A9CD3A400B3A442 /* MapView.swift */; };
 		4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D61BE482A9CD3B300B3A442 /* NotificationView.swift */; };
+		4D6605182B46BEC400C5E9AC /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6605172B46BEC400C5E9AC /* CircleButtonView.swift */; };
+		4D66051A2B46C28C00C5E9AC /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6605192B46C28C00C5E9AC /* Color+Extensions.swift */; };
+		4D66051C2B46C76B00C5E9AC /* ScheduleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D66051B2B46C76B00C5E9AC /* ScheduleInfoView.swift */; };
+		4D66051F2B46C94C00C5E9AC /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 4D66051E2B46C94C00C5E9AC /* SwiftDate */; };
 		4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850CE2B0D36F000A2BEA9 /* LocationPreviewView.swift */; };
 		4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */; };
 		4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */; };
@@ -79,10 +85,15 @@
 		4DF765C92B3CACDD00C16FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF765C82B3CACDD00C16FE6 /* LaunchScreen.storyboard */; };
 		4DF811CE2B3072B900D41448 /* ScheduleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF811CD2B3072B900D41448 /* ScheduleData.json */; };
 		4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */; };
+		E446B9D8C135068907676CDA /* Pods_EcoRecycle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E2B0417D89E3F83936B09B /* Pods_EcoRecycle.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BFA2551DCD64F7357B56657 /* Pods-EcoRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRecycle.release.xcconfig"; path = "Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle.release.xcconfig"; sourceTree = "<group>"; };
+		3FBC01297B3FE48726DC6D08 /* Pods-EcoRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRecycle.debug.xcconfig"; path = "Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		4D079C592AF924B200266417 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButtonView.swift; sourceTree = "<group>"; };
+		4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocationView.swift; sourceTree = "<group>"; };
 		4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		4D2AC9292ACC4C2E0033CAB2 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
 		4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRow.swift; sourceTree = "<group>"; };
@@ -102,6 +113,9 @@
 		4D61BE442A9CD39300B3A442 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		4D61BE462A9CD3A400B3A442 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		4D61BE482A9CD3B300B3A442 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		4D6605172B46BEC400C5E9AC /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
+		4D6605192B46C28C00C5E9AC /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		4D66051B2B46C76B00C5E9AC /* ScheduleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInfoView.swift; sourceTree = "<group>"; };
 		4D6850CE2B0D36F000A2BEA9 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMarkerView.swift; sourceTree = "<group>"; };
 		4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
@@ -127,6 +141,7 @@
 		4DF765C82B3CACDD00C16FE6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF811CD2B3072B900D41448 /* ScheduleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ScheduleData.json; sourceTree = "<group>"; };
 		4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		67E2B0417D89E3F83936B09B /* Pods_EcoRecycle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcoRecycle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +175,10 @@
 				4D45154B2AE9B52200E7A092 /* MailComposer in Frameworks */,
 				4DAAB2A72B14F366009D4402 /* FirebaseAuth in Frameworks */,
 				4DAAB2B12B14F366009D4402 /* FirebaseDynamicLinks in Frameworks */,
+				4D66051F2B46C94C00C5E9AC /* SwiftDate in Frameworks */,
 				4DAAB2B32B14F366009D4402 /* FirebaseFirestore in Frameworks */,
 				4DAAB2CB2B14F366009D4402 /* FirebaseRemoteConfigSwift in Frameworks */,
+				E446B9D8C135068907676CDA /* Pods_EcoRecycle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +190,8 @@
 			children = (
 				4D61BE1B2A9CC59600B3A442 /* EcoRecycle */,
 				4D61BE1A2A9CC59600B3A442 /* Products */,
+				A6B45B1C7E00F3E50EE9F275 /* Pods */,
+				DC29752BF948382D74B59A8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -227,6 +246,7 @@
 				4D61BE2E2A9CC7F200B3A442 /* Resources */,
 				4D61BE372A9CC89500B3A442 /* Array+Extensions.swift */,
 				4D61BE2F2A9CC82000B3A442 /* Bundle+Extensions.swift */,
+				4D6605192B46C28C00C5E9AC /* Color+Extensions.swift */,
 				4D61BE392A9CC8CA00B3A442 /* Dictionary+Extensions.swift */,
 				4D61BE3E2A9CD1A200B3A442 /* FileManager+Extensions.swift */,
 				4D61BE352A9CC88500B3A442 /* JSONDecoder+Extensions.swift */,
@@ -275,6 +295,8 @@
 				4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */,
 				4DB45DB52B1542090022C8AA /* CustomButton.swift */,
 				4DFA6C372B1951A700C7F9F9 /* HapticManager.swift */,
+				4D6605172B46BEC400C5E9AC /* CircleButtonView.swift */,
+				4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -316,6 +338,8 @@
 			children = (
 				4D61BE422A9CD37C00B3A442 /* ScheduleView.swift */,
 				4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */,
+				4D66051B2B46C76B00C5E9AC /* ScheduleInfoView.swift */,
+				4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -331,6 +355,23 @@
 			path = Quiz;
 			sourceTree = "<group>";
 		};
+		A6B45B1C7E00F3E50EE9F275 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FBC01297B3FE48726DC6D08 /* Pods-EcoRecycle.debug.xcconfig */,
+				3BFA2551DCD64F7357B56657 /* Pods-EcoRecycle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC29752BF948382D74B59A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E2B0417D89E3F83936B09B /* Pods_EcoRecycle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D61BE272A9CC59900B3A442 /* Build configuration list for PBXNativeTarget "EcoRecycle" */;
 			buildPhases = (
+				9147A02D6C5A3FE0C47F392E /* [CP] Check Pods Manifest.lock */,
 				4D61BE152A9CC59600B3A442 /* Sources */,
 				4D61BE162A9CC59600B3A442 /* Frameworks */,
 				4D61BE172A9CC59600B3A442 /* Resources */,
+				94FEFFE14A38E0F54EA05A06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -376,6 +419,7 @@
 				4DAAB2CA2B14F366009D4402 /* FirebaseRemoteConfigSwift */,
 				4DAAB2CC2B14F366009D4402 /* FirebaseStorage */,
 				4DAAB2CE2B14F366009D4402 /* FirebaseStorageCombine-Community */,
+				4D66051E2B46C94C00C5E9AC /* SwiftDate */,
 			);
 			productName = EcoRecycle;
 			productReference = 4D61BE192A9CC59600B3A442 /* EcoRecycle.app */;
@@ -408,6 +452,7 @@
 			packageReferences = (
 				4D4515492AE9B52200E7A092 /* XCLocalSwiftPackageReference "Dependencies/MailComposer" */,
 				4DAAB2992B14F366009D4402 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4D66051D2B46C94C00C5E9AC /* XCRemoteSwiftPackageReference "SwiftDate" */,
 			);
 			productRefGroup = 4D61BE1A2A9CC59600B3A442 /* Products */;
 			projectDirPath = "";
@@ -434,12 +479,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9147A02D6C5A3FE0C47F392E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EcoRecycle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94FEFFE14A38E0F54EA05A06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D61BE152A9CC59600B3A442 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D66051C2B46C76B00C5E9AC /* ScheduleInfoView.swift in Sources */,
 				4DCDDFB12B0FCA6400255FDD /* LocationSearchView.swift in Sources */,
+				4D18E1A82B4C4FE200FB9F65 /* RectangleButtonView.swift in Sources */,
 				4DB45DB82B17887B0022C8AA /* ScoreView.swift in Sources */,
 				4D61BE302A9CC82000B3A442 /* Bundle+Extensions.swift in Sources */,
 				4D61BE472A9CD3A400B3A442 /* MapView.swift in Sources */,
@@ -461,8 +550,10 @@
 				4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */,
 				4DFA6C382B1951A700C7F9F9 /* HapticManager.swift in Sources */,
 				4D61BE432A9CD37C00B3A442 /* ScheduleView.swift in Sources */,
+				4D18E1AA2B4C5A0B00FB9F65 /* ScheduleLocationView.swift in Sources */,
 				4D61BE342A9CC87500B3A442 /* UIDevice+Extensions.swift in Sources */,
 				4D61BE3F2A9CD1A200B3A442 /* FileManager+Extensions.swift in Sources */,
+				4D6605182B46BEC400C5E9AC /* CircleButtonView.swift in Sources */,
 				4DE9352A2B2B43850062277E /* ScheduleViewModel.swift in Sources */,
 				4DCCDFEC2AC730C7009EE803 /* PrivacyPolicyView.swift in Sources */,
 				4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */,
@@ -473,6 +564,7 @@
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
 				4DE935282B2B43770062277E /* Schedule.swift in Sources */,
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
+				4D66051A2B46C28C00C5E9AC /* Color+Extensions.swift in Sources */,
 				4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */,
 				4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */,
 				4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */,
@@ -520,7 +612,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -582,7 +674,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -603,6 +695,7 @@
 		};
 		4D61BE282A9CC59900B3A442 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBC01297B3FE48726DC6D08 /* Pods-EcoRecycle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -639,6 +732,7 @@
 		};
 		4D61BE292A9CC59900B3A442 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFA2551DCD64F7357B56657 /* Pods-EcoRecycle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
@@ -704,6 +798,14 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4D66051D2B46C94C00C5E9AC /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 		4DAAB2992B14F366009D4402 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -718,6 +820,11 @@
 		4D45154A2AE9B52200E7A092 /* MailComposer */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MailComposer;
+		};
+		4D66051E2B46C94C00C5E9AC /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D66051D2B46C94C00C5E9AC /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
 		};
 		4DAAB29A2B14F366009D4402 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
