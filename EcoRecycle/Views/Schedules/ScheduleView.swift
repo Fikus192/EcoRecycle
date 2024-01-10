@@ -36,24 +36,42 @@ struct ScheduleView: View {
                     }
                     Spacer(minLength: 0)
                     
-                    List(vm.schedules) { schedule in
-                        Button {
-                            vm.showAddLocation.toggle()
-                        } label: {
-                            RectangleButtonView(city: schedule.city, street: schedule.street)
+                    if let selectedLocation = vm.selectedLocation {
+                        List([selectedLocation]) { schedule in
+                            Button {
+                                vm.showAddLocation.toggle()
+                            } label: {
+                                RectangleButtonView(city: schedule.city, street: schedule.street)
+                            }
+                            .listRowSeparator(.hidden)
+                            
+                            vm.scheduleDetailsView(for: schedule)
                         }
-                        .listRowSeparator(.hidden)
+                        .listStyle(.plain)
                         
-                        vm.scheduleDetailsView(for: schedule)
+                    } else {
+                        VStack {
+                            Button {
+                                vm.showAddLocation.toggle()
+                            } label: {
+                                RectangleButtonView(city: "Wybierz swoją lokalizację", street: "Kliknij aby wybrać")
+                            }
+                            .padding()
+                            .listRowSeparator(.hidden)
+                            
+                            vm.scheduleDescriptionView()
+                        }
+                        .frame(maxHeight: .infinity, alignment: .top)
                     }
-                    .listStyle(.plain)
                 }
             }
             .navigationDestination(isPresented: $vm.showInfo) {
                 ScheduleInfoView()
             }
             .navigationDestination(isPresented: $vm.showAddLocation) {
-                ScheduleLocationView()
+                ScheduleLocationView { schedule in
+                    vm.selectedLocation = schedule ?? Schedule.sampleSchedule
+                }
             }
         }
     }
