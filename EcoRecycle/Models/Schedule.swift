@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct Schedule: Codable, Identifiable {
-    enum WasteType: String, CaseIterable {
+    enum WasteType: String, CaseIterable, Identifiable {
+        var id: Self { self }
         case tworzywaSztuczne
         case szklo
         case papier
