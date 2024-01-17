@@ -14,6 +14,7 @@ final class ScheduleViewModel: ObservableObject {
     @Published var showInfo: Bool = false
     @Published var showAddLocation: Bool = false
     @Published var selectedLocation: Schedule?
+    @Published var selectedWasteType: Schedule.WasteType = .tworzywaSztuczne
     
     private let selectedLocationKey: String = "selectedLocationKey"
     private var cancellables = Set<AnyCancellable>()

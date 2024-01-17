@@ -21,6 +21,18 @@ struct ScheduleLocationView: View {
                         .foregroundStyle(Color.theme.secondaryText)
                     
                     TextField("Znajdź lokalizację...", text: $vm.searchText)
+                        .overlay(
+                            Image(systemName: "xmark.circle.fill")
+                                .padding()
+                                .offset(x: 10)
+                                .foregroundStyle(Color.theme.secondaryText)
+                                .opacity(vm.searchText.isEmpty ? 0.0 : 1.0)
+                                .onTapGesture {
+                                    vm.searchText = ""
+                                }
+                            
+                            ,alignment: .trailing
+                        )
                 }
                 .padding(.vertical, 12)
                 .padding(.horizontal)

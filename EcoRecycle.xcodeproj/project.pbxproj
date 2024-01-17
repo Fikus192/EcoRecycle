@@ -69,6 +69,8 @@
 		4DAAB2D12B14F452009D4402 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAAB2D02B14F452009D4402 /* Info.swift */; };
 		4DAAB2D32B14F4AD009D4402 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAAB2D22B14F4AD009D4402 /* Question.swift */; };
 		4DAAB2D52B151456009D4402 /* Text+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAAB2D42B151456009D4402 /* Text+Extensions.swift */; };
+		4DB180B62B51898A00C5E70B /* ScheduleWasteInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB180B52B51898A00C5E70B /* ScheduleWasteInfoView.swift */; };
+		4DB180B82B5189DC00C5E70B /* WasteInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB180B72B5189DC00C5E70B /* WasteInfo.swift */; };
 		4DB45DB32B1521400022C8AA /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB22B1521400022C8AA /* QuestionView.swift */; };
 		4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB52B1542090022C8AA /* CustomButton.swift */; };
 		4DB45DB82B17887B0022C8AA /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB45DB72B17887B0022C8AA /* ScoreView.swift */; };
@@ -126,6 +128,8 @@
 		4DAAB2D02B14F452009D4402 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		4DAAB2D22B14F4AD009D4402 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		4DAAB2D42B151456009D4402 /* Text+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extensions.swift"; sourceTree = "<group>"; };
+		4DB180B52B51898A00C5E70B /* ScheduleWasteInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleWasteInfoView.swift; sourceTree = "<group>"; };
+		4DB180B72B5189DC00C5E70B /* WasteInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasteInfo.swift; sourceTree = "<group>"; };
 		4DB45DB22B1521400022C8AA /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		4DB45DB52B1542090022C8AA /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		4DB45DB72B17887B0022C8AA /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
@@ -287,6 +291,7 @@
 				4DAAB2D22B14F4AD009D4402 /* Question.swift */,
 				4DEE2F752B1A8BA600C50BAC /* Trash.swift */,
 				4DE935272B2B43770062277E /* Schedule.swift */,
+				4DB180B72B5189DC00C5E70B /* WasteInfo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 				4D607A6E2B34E35F00FA1183 /* ScheduleRow.swift */,
 				4D66051B2B46C76B00C5E9AC /* ScheduleInfoView.swift */,
 				4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */,
+				4DB180B52B51898A00C5E70B /* ScheduleWasteInfoView.swift */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -544,6 +550,7 @@
 				4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */,
 				4DB45DB32B1521400022C8AA /* QuestionView.swift in Sources */,
 				4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */,
+				4DB180B62B51898A00C5E70B /* ScheduleWasteInfoView.swift in Sources */,
 				4D61BE362A9CC88500B3A442 /* JSONDecoder+Extensions.swift in Sources */,
 				4D61BE412A9CD27A00B3A442 /* SettingsView.swift in Sources */,
 				4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */,
@@ -570,6 +577,7 @@
 				4D61BE1D2A9CC59600B3A442 /* EcoRecycleApp.swift in Sources */,
 				4D66051A2B46C28C00C5E9AC /* Color+Extensions.swift in Sources */,
 				4D6850CF2B0D36F000A2BEA9 /* LocationPreviewView.swift in Sources */,
+				4DB180B82B5189DC00C5E70B /* WasteInfo.swift in Sources */,
 				4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */,
 				4DDBBB252AB35EB50041E630 /* SettingsViewModel.swift in Sources */,
 				4D85BA892B1420D00092E2D5 /* QuizViewModel.swift in Sources */,
