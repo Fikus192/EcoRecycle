@@ -13,6 +13,7 @@ final class ScheduleViewModel: ObservableObject {
     @Published private(set) var schedules: [Schedule]
     @Published var showInfo: Bool = false
     @Published var showAddLocation: Bool = false
+    @Published var isShowingReminder: Bool = false
     @Published var selectedLocation: Schedule?
     @Published var selectedWasteType: Schedule.WasteType = .tworzywaSztuczne
     

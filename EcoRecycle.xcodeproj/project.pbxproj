@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D079C592AF924B200266417 /* NotificationManager.swift */; };
+		4D1879872B5B2FFB0091E689 /* ScheduleReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1879862B5B2FFB0091E689 /* ScheduleReminderView.swift */; };
 		4D18E1A82B4C4FE200FB9F65 /* RectangleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */; };
 		4D18E1AA2B4C5A0B00FB9F65 /* ScheduleLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */; };
 		4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */; };
@@ -37,6 +38,8 @@
 		4D6850D12B0D55C300A2BEA9 /* LocationMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */; };
 		4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */; };
 		4D85BA892B1420D00092E2D5 /* QuizViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D85BA882B1420D00092E2D5 /* QuizViewModel.swift */; };
+		4D8DF5082B695BC80009BEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DF5072B695BC80009BEBE /* AppDelegate.swift */; };
+		4D8DF50A2B6978410009BEBE /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8DF5092B6978410009BEBE /* NotificationRow.swift */; };
 		4DA949F22AF1333B00DDC5FD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA949F12AF1333A00DDC5FD /* RatingView.swift */; };
 		4DAAB2982B14EA7C009D4402 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DAAB2972B14EA7C009D4402 /* GoogleService-Info.plist */; };
 		4DAAB29B2B14F366009D4402 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4DAAB29A2B14F366009D4402 /* FirebaseAnalytics */; };
@@ -82,6 +85,7 @@
 		4DE9352A2B2B43850062277E /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE935292B2B43850062277E /* ScheduleViewModel.swift */; };
 		4DEE2F762B1A8BA600C50BAC /* Trash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F752B1A8BA600C50BAC /* Trash.swift */; };
 		4DEE2F7A2B1A8C3800C50BAC /* DictionaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */; };
+		4DF53CCA2B62C27100FA2401 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF53CC92B62C27100FA2401 /* Notification.swift */; };
 		4DF5DD3A2B025EEA000D1F01 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD392B025EEA000D1F01 /* Location.swift */; };
 		4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */; };
 		4DF5DD3E2B0260E8000D1F01 /* PSZOK_Locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */; };
@@ -95,6 +99,7 @@
 		3BFA2551DCD64F7357B56657 /* Pods-EcoRecycle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRecycle.release.xcconfig"; path = "Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle.release.xcconfig"; sourceTree = "<group>"; };
 		3FBC01297B3FE48726DC6D08 /* Pods-EcoRecycle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcoRecycle.debug.xcconfig"; path = "Target Support Files/Pods-EcoRecycle/Pods-EcoRecycle.debug.xcconfig"; sourceTree = "<group>"; };
 		4D079C592AF924B200266417 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		4D1879862B5B2FFB0091E689 /* ScheduleReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleReminderView.swift; sourceTree = "<group>"; };
 		4D18E1A72B4C4FE200FB9F65 /* RectangleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleButtonView.swift; sourceTree = "<group>"; };
 		4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocationView.swift; sourceTree = "<group>"; };
 		4D1B4B1F2ABC9EAF008C3A6B /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
@@ -123,6 +128,8 @@
 		4D6850D02B0D55C300A2BEA9 /* LocationMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMarkerView.swift; sourceTree = "<group>"; };
 		4D6850D22B0D761A00A2BEA9 /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
 		4D85BA882B1420D00092E2D5 /* QuizViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewModel.swift; sourceTree = "<group>"; };
+		4D8DF5072B695BC80009BEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D8DF5092B6978410009BEBE /* NotificationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRow.swift; sourceTree = "<group>"; };
 		4DA949F12AF1333A00DDC5FD /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		4DAAB2972B14EA7C009D4402 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4DAAB2D02B14F452009D4402 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
@@ -141,6 +148,7 @@
 		4DE935292B2B43850062277E /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
 		4DEE2F752B1A8BA600C50BAC /* Trash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trash.swift; sourceTree = "<group>"; };
 		4DEE2F792B1A8C3800C50BAC /* DictionaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryView.swift; sourceTree = "<group>"; };
+		4DF53CC92B62C27100FA2401 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		4DF5DD392B025EEA000D1F01 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4DF5DD3B2B025F1C000D1F01 /* MapsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewModel.swift; sourceTree = "<group>"; };
 		4DF5DD3D2B0260E8000D1F01 /* PSZOK_Locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PSZOK_Locations.json; sourceTree = "<group>"; };
@@ -228,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				4D61BE1C2A9CC59600B3A442 /* EcoRecycleApp.swift */,
+				4D8DF5072B695BC80009BEBE /* AppDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -292,6 +301,7 @@
 				4DEE2F752B1A8BA600C50BAC /* Trash.swift */,
 				4DE935272B2B43770062277E /* Schedule.swift */,
 				4DB180B72B5189DC00C5E70B /* WasteInfo.swift */,
+				4DF53CC92B62C27100FA2401 /* Notification.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -337,6 +347,7 @@
 			children = (
 				4D61BE482A9CD3B300B3A442 /* NotificationView.swift */,
 				4D079C592AF924B200266417 /* NotificationManager.swift */,
+				4D8DF5092B6978410009BEBE /* NotificationRow.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -349,6 +360,7 @@
 				4D66051B2B46C76B00C5E9AC /* ScheduleInfoView.swift */,
 				4D18E1A92B4C5A0B00FB9F65 /* ScheduleLocationView.swift */,
 				4DB180B52B51898A00C5E70B /* ScheduleWasteInfoView.swift */,
+				4D1879862B5B2FFB0091E689 /* ScheduleReminderView.swift */,
 			);
 			path = Schedules;
 			sourceTree = "<group>";
@@ -451,11 +463,12 @@
 			};
 			buildConfigurationList = 4D61BE142A9CC59600B3A442 /* Build configuration list for PBXProject "EcoRecycle" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = pl;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 4D61BE102A9CC59600B3A442;
 			packageReferences = (
@@ -546,15 +559,18 @@
 				4DAAB2D52B151456009D4402 /* Text+Extensions.swift in Sources */,
 				4DAAB2D32B14F4AD009D4402 /* Question.swift in Sources */,
 				4D61BE382A9CC89500B3A442 /* Array+Extensions.swift in Sources */,
+				4D8DF5082B695BC80009BEBE /* AppDelegate.swift in Sources */,
 				4DA949F22AF1333B00DDC5FD /* RatingView.swift in Sources */,
 				4D61BE492A9CD3B300B3A442 /* NotificationView.swift in Sources */,
 				4DB45DB32B1521400022C8AA /* QuestionView.swift in Sources */,
+				4D8DF50A2B6978410009BEBE /* NotificationRow.swift in Sources */,
 				4D61BE452A9CD39300B3A442 /* QuizView.swift in Sources */,
 				4DB180B62B51898A00C5E70B /* ScheduleWasteInfoView.swift in Sources */,
 				4D61BE362A9CC88500B3A442 /* JSONDecoder+Extensions.swift in Sources */,
 				4D61BE412A9CD27A00B3A442 /* SettingsView.swift in Sources */,
 				4D6850D32B0D761A00A2BEA9 /* LocationInfoView.swift in Sources */,
 				4DEE2F7A2B1A8C3800C50BAC /* DictionaryView.swift in Sources */,
+				4DF53CCA2B62C27100FA2401 /* Notification.swift in Sources */,
 				4D61BE3A2A9CC8CA00B3A442 /* Dictionary+Extensions.swift in Sources */,
 				4D2AC92A2ACC4C2E0033CAB2 /* TermsAndConditionsView.swift in Sources */,
 				4DB45DB62B1542090022C8AA /* CustomButton.swift in Sources */,
@@ -570,6 +586,7 @@
 				4D607A6F2B34E35F00FA1183 /* ScheduleRow.swift in Sources */,
 				4DCA29762B4F0414006D537A /* CustomBackButtonView.swift in Sources */,
 				4DF5DD3C2B025F1C000D1F01 /* MapsViewModel.swift in Sources */,
+				4D1879872B5B2FFB0091E689 /* ScheduleReminderView.swift in Sources */,
 				4D61BE1F2A9CC59600B3A442 /* MainView.swift in Sources */,
 				4D079C5A2AF924B200266417 /* NotificationManager.swift in Sources */,
 				4D1B4B202ABC9EAF008C3A6B /* SettingsLabelView.swift in Sources */,
@@ -709,6 +726,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3FBC01297B3FE48726DC6D08 /* Pods-EcoRecycle.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -746,6 +765,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BFA2551DCD64F7357B56657 /* Pods-EcoRecycle.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;

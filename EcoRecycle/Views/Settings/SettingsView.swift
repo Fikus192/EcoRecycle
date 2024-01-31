@@ -11,6 +11,7 @@ import SwiftUI
 internal struct SettingsView: View {
     
     @ObservedObject private var viewModel = SettingsViewModel()
+    @Environment(\.scenePhase) var scenePhase
     
     internal var body: some View {
         NavigationView {
@@ -44,9 +45,14 @@ internal struct SettingsView: View {
         }
         .mailComposer(isPresented: $viewModel.showMailComposer, mailData: viewModel.mailData)
         .preferredColorScheme(viewModel.toggleDarkMode ? .dark : .light)
-        .onAppear {
-            if viewModel.toggleNotifications == true {
-                NotificationManager.instance.requestAuthorization()
+        .task {
+            try? await NotificationManager.instance.requestAuthorization()
+        }
+        .onChange(of: scenePhase) { newValue in
+            if newValue == .active {
+                Task {
+                    await NotificationManager.instance.getCurrentSettings()
+                }
             }
         }
     }
@@ -70,17 +76,12 @@ extension SettingsView {
     }
     
     private var settingsToggleNotifications: some View {
-        Toggle(isOn: $viewModel.toggleNotifications) {
-            HStack {
-                Image(systemName: "bell")
-                Text("Zezwól na Powiadomienia")
+        SettingsLabelView(
+            image: "bell",
+            labelText: "Zezwól na Powiadomienia",
+            actionButtonTitle: "") { _ in
+                NotificationManager.instance.openSettings()
             }
-            .onTapGesture {
-                if viewModel.toggleNotifications {
-                    NotificationManager.instance.scheduleNotification()
-                }
-            }
-        }
     }
     
     private var settingsPrivacyPolicyLabel: some View {

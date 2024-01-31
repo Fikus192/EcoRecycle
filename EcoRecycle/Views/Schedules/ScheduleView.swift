@@ -26,13 +26,25 @@ struct ScheduleView: View {
                         } label: {
                             CircleButtonView(iconName: "info")
                         }
+                        
                         Spacer()
+                        
                         Text("Harmonogram Odbioru")
                             .font(.headline)
                             .fontWeight(.heavy)
                             .foregroundStyle(Color.theme.accent)
+                        
                         Spacer()
-                        CircleButtonView(iconName: "bell.fill")
+                        
+                        Button {
+                            vm.isShowingReminder.toggle()
+                        } label: {
+                            CircleButtonView(iconName: "bell.fill")
+                        }
+                        .sheet(isPresented: $vm.isShowingReminder) {
+                            ScheduleReminderView(isShowingReminder: $vm.isShowingReminder)
+                                .presentationDragIndicator(.visible)
+                        }
                     }
                     Spacer(minLength: 0)
                     
