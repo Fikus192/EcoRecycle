@@ -10,6 +10,7 @@ import Firebase
 import FirebaseFirestoreSwift
 import SwiftUI
 
+@MainActor
 final class QuizViewModel: ObservableObject {
     @AppStorage("log_status") private var logStatus: Bool = false
     

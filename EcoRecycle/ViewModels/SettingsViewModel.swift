@@ -11,7 +11,6 @@ import SwiftUI
 internal class SettingsViewModel: ObservableObject {
     @AppStorage("isDarkMode") var toggleDarkMode: Bool = false
 
-    @Published var toggleNotifications: Bool = false
     @Published var showPrivacyPolicy: Bool = false
     @Published var showTermsAndConditions: Bool = false
     @Published var showRating: Bool = false

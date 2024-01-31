@@ -42,7 +42,6 @@ struct RectangleButtonView: View {
                 .stroke(Color.theme.secondaryText, lineWidth: 1)
                 .frame(maxWidth: .infinity)
         )
-        //.padding()
     }
 }
 
