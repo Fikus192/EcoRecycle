@@ -34,6 +34,8 @@ struct LocationInfoView: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
+            .navigationBarBackButtonHidden()
+            .navigationBarItems(leading: CustomBackButtonView())
         }
         .background(.ultraThinMaterial)
     }

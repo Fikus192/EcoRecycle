@@ -65,6 +65,8 @@ struct MapView: View {
                 LocationSearchView { location in
                     viewModel.mapLocation = location ?? Location.sampleLocation
                 }
+                .navigationBarBackButtonHidden()
+                .navigationBarItems(leading: CustomBackButtonView())
             }
         }
         .onAppear {
