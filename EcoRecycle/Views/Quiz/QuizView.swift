@@ -50,6 +50,8 @@ struct QuizView: View {
                 DictionaryView()
                     .navigationTitle("Słownik odpadowy")
                     .navigationBarTitleDisplayMode(.inline)
+                    .navigationBarBackButtonHidden()
+                    .navigationBarItems(leading: CustomBackButtonView())
             }
             .task {
                 do {

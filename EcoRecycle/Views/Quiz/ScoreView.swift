@@ -14,7 +14,7 @@ struct ScoreView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Gratulację")
+            Text("Gratulacje!")
                 .customTitle()
             
             Text("Właśnie ukończyłeś Quiz zwiększający świadomość segregacji odpadów.")

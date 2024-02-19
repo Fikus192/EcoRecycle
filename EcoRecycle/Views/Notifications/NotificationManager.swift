@@ -14,6 +14,8 @@ internal class NotificationManager: NSObject, ObservableObject, UNUserNotificati
     
     static let instance = NotificationManager() // Singleton
     
+    @StateObject private var vm = ScheduleViewModel()
+    
     let notificationCenter = UNUserNotificationCenter.current()
     @Published var isGranted: Bool = false
     
@@ -96,6 +98,43 @@ internal class NotificationManager: NSObject, ObservableObject, UNUserNotificati
         
         let newNotification = Notification(id: UUID(), title: content.title, body: content.body, date: date)
         notifications.append(newNotification)
+    }
+    
+    internal func scheduleNotificationFromPickup(for schedule: Schedule) {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd/MM/yyyy"
+        
+        guard let selectedDateString = schedule.pickup.dates(for: vm.selectedWasteType).first,
+              let selectedDate = dateFormatter.date(from: selectedDateString) else {
+            
+            print("Brak daty odbioru odpadów")
+            return
+        }
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Dzisiaj odbiór odpadów"
+        content.body = "Przygotuj \(schedule.pickup)"
+        content.sound = .default
+        content.badge = 1
+        
+        var dateComponents = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute], from: selectedDate)
+        dateComponents.hour = 6
+        dateComponents.minute = 0
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        
+        notificationCenter.add(request) { error in
+            if let error = error {
+                print("Błąd implementacji powiadomienia harmonogramu: \(error.localizedDescription)")
+            } else {
+                print("Pomyślnie powiadomienie harmonogramu dla \(schedule.pickup)")
+            }
+        }
+        
+        let newNotification = Notification(id: UUID(), title: content.title, body: content.body, date: Date())
+        notifications.append(newNotification)
+        saveNotifications()
     }
     
     private func saveNotifications() {
