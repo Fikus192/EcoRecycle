@@ -22,6 +22,7 @@ struct ScheduleWasteInfoView: View {
                             .foregroundColor(.primary)
                         Image(systemName: "checkmark.circle.fill")
                             .foregroundStyle(Color.theme.green)
+                            .accessibilityHidden(true)
                         
                     }
                     .font(.title2)
@@ -31,6 +32,7 @@ struct ScheduleWasteInfoView: View {
                         HStack {
                             Image(systemName: "circlebadge.fill")
                                 .font(.caption2)
+                                .accessibilityHidden(true)
                             Text(waste)
                                 .foregroundStyle(Color.theme.secondaryText)
                         }
@@ -46,6 +48,7 @@ struct ScheduleWasteInfoView: View {
                             .foregroundColor(.primary)
                         Image(systemName: "xmark.circle.fill")
                             .foregroundStyle(Color.theme.red)
+                            .accessibilityHidden(true)
                     }
                     .font(.title2)
                     .fontWeight(.bold)
@@ -54,6 +57,7 @@ struct ScheduleWasteInfoView: View {
                         HStack {
                             Image(systemName: "circlebadge.fill")
                                 .font(.caption2)
+                                .accessibilityHidden(true)
                             Text(waste)
                                 .foregroundStyle(Color.theme.secondaryText)
                         }
@@ -69,6 +73,7 @@ struct ScheduleWasteInfoView: View {
                             .foregroundColor(.primary)
                         Image(systemName: "info.circle.fill")
                             .foregroundStyle(Color.theme.secondaryText)
+                            .accessibilityHidden(true)
                     }
                     .font(.title2)
                     .fontWeight(.bold)
@@ -77,6 +82,7 @@ struct ScheduleWasteInfoView: View {
                         HStack {
                             Image(systemName: "circlebadge.fill")
                                 .font(.caption2)
+                                .accessibilityHidden(true)
                             Text(waste)
                                 .foregroundStyle(Color.theme.secondaryText)
                         }

@@ -16,7 +16,9 @@ struct CustomBackButtonView: View {
             presentationMode.wrappedValue.dismiss()
         } label: {
             Image(systemName: "arrowshape.turn.up.backward")
+                .accessibilityHidden(true)
         }
+        .accessibilityLabel(Text("Wróć"))
     }
 }
 

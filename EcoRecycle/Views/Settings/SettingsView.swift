@@ -136,6 +136,7 @@ extension SettingsView {
     private var settingsAppVersionLabel: some View {
         HStack {
             Image(systemName: "apple.terminal")
+                .accessibilityHidden(true)
             Text("Wersja aplikacji: \(Bundle.main.appVersion)")
         }
         .foregroundStyle(.secondary)

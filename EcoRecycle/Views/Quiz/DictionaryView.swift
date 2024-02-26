@@ -42,11 +42,14 @@ struct DictionaryView: View {
                                     .font(.headline)
                                     .fontWeight(.bold)
                                     .foregroundStyle(.primary)
+                                    .accessibilityElement(children: .combine)
                                 Text(trash.category)
                                     .font(.subheadline)
                                     .foregroundStyle(.secondary)
+                                    .accessibilityHidden(true)
                             }
                             .padding(.horizontal, 5)
+                            .accessibilityLabel(Text("\(trash.name) to \(trash.category)"))
                         }
                 }
             }

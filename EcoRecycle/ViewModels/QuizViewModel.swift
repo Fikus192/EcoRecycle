@@ -24,6 +24,9 @@ final class QuizViewModel: ObservableObject {
     @Published var progress: CGFloat = 0
     @Published var showScoreView: Bool = false
     @Published var showDictionaryView: Bool = false
+    @Published var isAnswerCorrect: Bool = false
+    @Published var accessibilityLabel: String = ""
+    @Published var isAccessibilityActive: Bool = false
     
     // Search text bar in DictionaryView
     @Published var searchText: String = ""
@@ -95,6 +98,7 @@ final class QuizViewModel: ObservableObject {
             Image(systemName: "circle.fill")
                 .font(.caption)
                 .foregroundStyle(.accent)
+                .accessibilityHidden(true)
             
             Text(option)
                 .bold()
@@ -161,5 +165,33 @@ final class QuizViewModel: ObservableObject {
                     .fill(.white)
             }
         }
+    }
+    
+    internal func handleNextButtonTap() {
+        if currentQuestion == (questions.count - 1) {
+            showScoreView.toggle()
+        } else {
+            withAnimation(.easeInOut) {
+                if questions.indices.contains(currentQuestion) {
+                    currentQuestion += 1
+                    progress = CGFloat(Double(currentQuestion) / Double(questions.count - 1) * 350)
+                }
+            }
+        }
+    }
+    
+    internal func accessibilityLabelForCurrentQuestion(question: Question) {
+        let currentQuestionIndex = currentQuestion + 1
+        let totalQuestionsCount = questions.count
+        
+        var feedback = ""
+        
+        if question.tappedAnswer == question.answer {
+            feedback = "Poprawna odpowiedź! Aktualnie jesteś na pytaniu \(currentQuestionIndex) z \(totalQuestionsCount)."
+        } else {
+            feedback = "Niestety, błędna odpowiedź. Poprawna odpowiedź to \(question.answer). Aktualnie jesteś na pytaniu \(currentQuestionIndex) z \(totalQuestionsCount)."
+        }
+        
+        accessibilityLabel = feedback
     }
 }
