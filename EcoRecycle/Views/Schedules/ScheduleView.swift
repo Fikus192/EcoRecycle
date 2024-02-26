@@ -25,7 +25,9 @@ struct ScheduleView: View {
                             vm.showInfo.toggle()
                         } label: {
                             CircleButtonView(iconName: "info")
+                                .accessibilityHidden(true)
                         }
+                        .accessibilityLabel(Text("Informacje odpadowe"))
                         
                         Spacer()
                         
@@ -40,7 +42,9 @@ struct ScheduleView: View {
                             vm.isShowingReminder.toggle()
                         } label: {
                             CircleButtonView(iconName: "bell.fill")
+                                .accessibilityHidden(true)
                         }
+                        .accessibilityLabel(Text("Ustaw przypomnienie"))
                         .sheet(isPresented: $vm.isShowingReminder) {
                             ScheduleReminderView(isShowingReminder: $vm.isShowingReminder)
                                 .presentationDragIndicator(.visible)

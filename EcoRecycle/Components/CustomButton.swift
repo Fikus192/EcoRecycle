@@ -19,7 +19,7 @@ struct CustomButton: View {
                 .foregroundStyle(.white)
                 .padding()
                 .padding(.horizontal)
-                .background(.accent)
+                .background(Color.theme.accent)
                 .cornerRadius(30)
                 .shadow(radius: 10)
         }

@@ -34,23 +34,25 @@ struct QuestionView: View {
                         if vm.currentQuestion == question {
                             vm.questionView(vm.questions[vm.currentQuestion])
                                 .transition(.asymmetric(insertion: .move(edge: .trailing), removal: .move(edge: .leading)))
+                                .accessibilityAction {
+                                    if !vm.questions[vm.currentQuestion].tappedAnswer.isEmpty {
+                                        vm.accessibilityLabelForCurrentQuestion(question: vm.questions[vm.currentQuestion])
+                                    }
+                                } label: {
+                                    Text(vm.accessibilityLabel)
+                                }
                         }
                     }
                 }
                 .padding(.vertical, 15)
                 
                 CustomButton(title: vm.currentQuestion == (vm.questions.count - 1) ? "Zakończ" : "Dalej") {
-                    if vm.currentQuestion == (vm.questions.count - 1) {
-                        vm.showScoreView.toggle()
-                    } else {
-                        withAnimation(.easeInOut) {
-                            if vm.questions.indices.contains(vm.currentQuestion) {
-                                vm.currentQuestion += 1
-                                vm.progress = CGFloat(Double(vm.currentQuestion) / Double(vm.questions.count - 1) * 350)
-                            }
-                        }
-                    }
+                    vm.handleNextButtonTap()
                 }
+                .background(vm.questions.indices.contains(vm.currentQuestion) && vm.questions[vm.currentQuestion].tappedAnswer.isEmpty ?
+                            Color.theme.secondaryText : Color.theme.accent)
+                .cornerRadius(30)
+                .accessibilityHint(Text("Aby przejść dalej musisz odpowiedzieć na pytanie."))
                 .disabled(vm.questions.indices.contains(vm.currentQuestion) ? vm.questions[vm.currentQuestion].tappedAnswer.isEmpty : true)
             }
         }

@@ -41,7 +41,9 @@ struct QuizView: View {
                         .background(.thinMaterial)
                         .cornerRadius(10)
                         .shadow(radius: 4)
+                        .accessibilityHidden(true)
                 }
+                .accessibilityLabel(Text("Słownik odpadowy."))
             }
             .navigationDestination(isPresented: $vm.isQuestionViewPresented) {
                 QuestionView()

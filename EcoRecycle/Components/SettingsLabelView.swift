@@ -18,8 +18,10 @@ struct SettingsLabelView: View {
     var body: some View {
         HStack {
             Image(systemName: image)
+                .accessibilityHidden(true)
             
             Text(labelText)
+                .accessibilityElement(children: .combine)
             
             Button(action: {
                 isButtonTapped.toggle()
@@ -27,7 +29,10 @@ struct SettingsLabelView: View {
             }) {
                 Text(actionButtonTitle)
             }
-            
         }
+        .accessibilityAddTraits(.isButton)
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(Text("\(labelText), \(actionButtonTitle) przycisk"))
+        .accessibilityHint(Text("Stuknij dwukrotnie w przycisk"))
     }
 }
